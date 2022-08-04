@@ -1,0 +1,15 @@
+<resources>
+
+    <style name="Theme.NotesApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/customeblue</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="colorPrimaryDark">@color/customeblue</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor">@color/customeblue</item>
+    </style>
+</resources>

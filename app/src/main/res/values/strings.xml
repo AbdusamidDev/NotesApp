@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NotesApp</string>
+    <string name="add">Add Notes</string>
+    <string name="titlehint">Enter Title</string>
+    <string name="descript">Description</string>
+    <string name="title">Title</string>
+    <string name="description">Pattern Generator Create any pattern of your own - tiles, texture, skin, wallpaper, comic effect, website background and more. Change any artwork of pattern you found into different flavors and call them your own.</string>
+    <string name="search">Search</string>
+</resources>

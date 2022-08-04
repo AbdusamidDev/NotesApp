@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gray"
+    android:orientation="vertical"
+    tools:ignore="ContentDescription">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:background="@drawable/background_layout"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="monospace"
+            android:text="@string/title"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvDes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="@string/description"
+            android:textColor="@color/black"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            tools:ignore="RtlSymmetry" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/ivDelete"
+                android:layout_width="40pt"
+                android:layout_height="20pt"
+                android:layout_marginEnd="10pt"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_delete_black_24dp" />
+
+            <ImageView
+                android:id="@+id/ivEdit"
+                android:layout_width="40pt"
+                android:layout_height="20pt"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_mode_edit_black_24dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
